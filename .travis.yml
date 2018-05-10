@@ -9,8 +9,11 @@ matrix:
   include:
     - os: linux
       dist: trusty
-      install:
-      - npm install -g truffle ganache-cli
+
+
+install:
+- npm install -g truffle ganache-cli
+- npm install
 
 script: 
 - ganache-cli >/dev/null 2>&1 &
