@@ -1,15 +1,10 @@
+os: linux
 dist: trusty
 sudo: required
 language: node_js
 node_js:
-  - "8.9"
+  - "8.11"
   - "9.11"
-
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-
 
 install:
 - npm install -g truffle ganache-cli
