@@ -2,7 +2,8 @@ dist: trusty
 sudo: required
 language: node_js
 node_js:
-	- "9.11"
+  - "8.9"
+  - "9.11"
 
 matrix:
   include:
